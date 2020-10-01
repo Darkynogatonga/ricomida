@@ -1,0 +1,59 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    line-height: 2rem;
+}
+
+h1, h2, h5 {
+    font-weight: 700;
+}
+
+h3, h4 {
+    font-weight: 400;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.logo-news {
+    font-family: 'Lobster', cursive;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+    
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+
+.tooltip-inner {
+    max-width: 15rem;
+}
+
+.separador{
+    border-bottom: 2px solid #000;
+    margin-bottom: 2rem;
+
+}
+
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+ @media (min-width: 960px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
